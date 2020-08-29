@@ -365,7 +365,7 @@ void report(void)
         generation == 12000 || generation == 14000 || generation == 16000 || generation == 18000 || generation == 20000)
     {
 
-        printf("\nF%d\t第%d代\t%E\n", func_num, generation, best_val);
+        printf("\n F%d\t第%d代\t%E\n", func_num, generation, best_val);
         fprintf(txtFile, "\n %5d  %E  %E  %E \n", generation, best_val, avg, stddev);
 
     }
@@ -388,7 +388,7 @@ void start_Function(int n) {
         exit(1);
     }
 
-    printf("\nF%d 正在计算，请稍后...\n", func_num);
+    printf("\n F%d 正在计算，请稍后...\n", func_num);
 
     fprintf(txtFile, "\n generation     best          average           standard \n");
     fprintf(txtFile, " number         value          fitness            deviation \n");
@@ -420,7 +420,7 @@ void start_Function(int n) {
 
     population[POPSIZE].fitness = 0;  //修正最终适应度结果
 
-    printf("\nF%d 计算完成，结果已生成：%s\n", func_num, result_file);
+    printf("\n F%d 计算完成，结果已生成：%s\n", func_num, result_file);
 
 }
 
@@ -438,7 +438,7 @@ void test_popsize(double pxover, double pmutation)
     for (popsize = 20; popsize <= 200; popsize += 20)
     {
         POPSIZE = popsize;
-        printf("\n\nPOPSIZE = %d, PMUTATION = %lf, PXOVER = %lf\n", POPSIZE, PMUTATION, PXOVER);
+        printf("\n\n POPSIZE = %d, PMUTATION = %lf, PXOVER = %lf\n", POPSIZE, PMUTATION, PXOVER);
 
         initialize();   //随机数随种群大小改变
 
@@ -492,7 +492,7 @@ void test_pxover(int popsize, double pmutation)
     for (pxover = 0.9; pxover >= 0.1; pxover -= 0.1)
     {
         PXOVER = pxover;
-        printf("\n\nPOPSIZE = %d, PMUTATION = %lf, PXOVER = %lf\n", POPSIZE, PMUTATION, PXOVER);
+        printf("\n\n POPSIZE = %d, PMUTATION = %lf, PXOVER = %lf\n", POPSIZE, PMUTATION, PXOVER);
 
         //测试随机数的生成值
         /* for (int j = 0; j < POPSIZE; j++)
@@ -545,7 +545,7 @@ void test_pmutation(int popsize, double pxover)
     for (pmutation = 0.01; pmutation <= 0.1; pmutation += 0.01)
     {
         PMUTATION = pmutation;
-        printf("\n\nPOPSIZE = %d, PMUTATION = %lf, PXOVER = %lf\n", POPSIZE, PMUTATION, PXOVER);
+        printf("\n\n POPSIZE = %d, PMUTATION = %lf, PXOVER = %lf\n", POPSIZE, PMUTATION, PXOVER);
 
         //测试随机数的生成值
         /* for (int j = 0; j < POPSIZE; j++)
