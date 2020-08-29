@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CSO" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CSO" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CSO" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="CEC2010/Benchmarks.cpp" />
+		<Unit filename="CEC2010/Benchmarks.h" />
+		<Unit filename="CEC2010/F1.cpp" />
+		<Unit filename="CEC2010/F1.h" />
+		<Unit filename="CEC2010/F10.cpp" />
+		<Unit filename="CEC2010/F10.h" />
+		<Unit filename="CEC2010/F11.cpp" />
+		<Unit filename="CEC2010/F11.h" />
+		<Unit filename="CEC2010/F12.cpp" />
+		<Unit filename="CEC2010/F12.h" />
+		<Unit filename="CEC2010/F13.cpp" />
+		<Unit filename="CEC2010/F13.h" />
+		<Unit filename="CEC2010/F14.cpp" />
+		<Unit filename="CEC2010/F14.h" />
+		<Unit filename="CEC2010/F15.cpp" />
+		<Unit filename="CEC2010/F15.h" />
+		<Unit filename="CEC2010/F16.cpp" />
+		<Unit filename="CEC2010/F16.h" />
+		<Unit filename="CEC2010/F17.cpp" />
+		<Unit filename="CEC2010/F17.h" />
+		<Unit filename="CEC2010/F18.cpp" />
+		<Unit filename="CEC2010/F18.h" />
+		<Unit filename="CEC2010/F19.cpp" />
+		<Unit filename="CEC2010/F19.h" />
+		<Unit filename="CEC2010/F2.cpp" />
+		<Unit filename="CEC2010/F2.h" />
+		<Unit filename="CEC2010/F20.cpp" />
+		<Unit filename="CEC2010/F20.h" />
+		<Unit filename="CEC2010/F3.cpp" />
+		<Unit filename="CEC2010/F3.h" />
+		<Unit filename="CEC2010/F4.cpp" />
+		<Unit filename="CEC2010/F4.h" />
+		<Unit filename="CEC2010/F5.cpp" />
+		<Unit filename="CEC2010/F5.h" />
+		<Unit filename="CEC2010/F6.cpp" />
+		<Unit filename="CEC2010/F6.h" />
+		<Unit filename="CEC2010/F7.cpp" />
+		<Unit filename="CEC2010/F7.h" />
+		<Unit filename="CEC2010/F8.cpp" />
+		<Unit filename="CEC2010/F8.h" />
+		<Unit filename="CEC2010/F9.cpp" />
+		<Unit filename="CEC2010/F9.h" />
+		<Unit filename="CEC2010/Header.h" />
+		<Unit filename="CSO.cpp" />
+		<Unit filename="CSO_1.cpp" />
+		<Unit filename="CSO_2.cpp" />
+		<Unit filename="CSO_3.cpp" />
+		<Unit filename="CSO_4.cpp" />
+		<Unit filename="Makefile" />
+		<Unit filename="Self_Define_Functions.cpp" />
+		<Unit filename="Self_Define_Functions.h" />
+		<Unit filename="hosts" />
+		<Unit filename="machinefiles" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
